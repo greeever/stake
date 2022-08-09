@@ -3253,6 +3253,18 @@ react-query@4.0.0-beta.23:
     match-sorter "^6.0.2"
     use-sync-external-store "^1.1.0"
 
+react-range@^1.8.14:
+  version "1.8.14"
+  resolved "https://registry.yarnpkg.com/react-range/-/react-range-1.8.14.tgz#11047f69b365ac6c75c3d715771ebe76b93982ec"
+  integrity sha512-v2nyD5106rHf9dwHzq+WRlhCes83h1wJRHIMFjbZsYYsO6LF4mG/mR3cH7Cf+dkeHq65DItuqIbLn/3jjYjsHg==
+
+react-slider@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-slider/-/react-slider-2.0.1.tgz#51fb80aaebb98a07d6563b757a49c437a5142fed"
+  integrity sha512-EnPLeyPGQcgpU9i+OvdD6W1Fk+rHg7LOVGvREXqLnbSngYvnE+d++nus0iHho1kcDw6NzF1OXzqWXAEs2Nbl4Q==
+  dependencies:
+    prop-types "^15.8.1"
+
 react-toastify@^9.0.8:
   version "9.0.8"
   resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-9.0.8.tgz#3876c89fc6211a29027b3075010b5ec39ebe4f7e"

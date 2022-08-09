@@ -1,15 +1,20 @@
-
+import { useState } from "react";
+import {useAccount} from 'wagmi'
 
 const Stake = () => {
+
 
     return (
         <>
         <div>
             <div className="">
-            <p className="text-center pt-4 pb-8">STAKING POSITIONS</p>
+            
 
                 
                 <div className="px-4">
+                   
+                    
+                    <p className="text-left md:text-center pt-8 pb-8">STAKING POSITIONS</p>
                 <div className="lg:flex lg:mx-auto lg:justify-center ">
                     <div className="border border-gray-500 px-4 lg:w-1/3">
                     <div className="flex pt-6 justify-center space-x-6">
@@ -25,6 +30,8 @@ const Stake = () => {
                         <p className="text-gray-300">100,000,000</p>
                     </div>
                     <div className="flex justify-between pb-6">
+
+                        
                         <p className="">DURATION</p>
                         <p className="">APR <span className="">20%</span></p>
                     </div>
@@ -40,13 +47,14 @@ const Stake = () => {
                         </div>
                     </div>
 
+
                     <div className="mb-8">
                     <form className="mt-6">
         <label className="block text-sm pb-4 font-serif">AMOUNT</label>
         <div className="flex items-center pt-1 border rounded-md">
                        <img src='/logo.svg' className='h-8 w-8' />
                         <input
-                            type="email"
+                            type=""
                             placeholder="0"
                             id="email"
                             className="w-full p-1 ml-3 text-gray-500 outline-none bg-transparent py-3"
@@ -96,6 +104,7 @@ const Stake = () => {
 
                     <p className="text-[#ebff00] pt-6 pb-6">
                     ONCE STAKED, YOUR UXP WILL BE LOCKED AND ONLY RELEASED AFTER REDEMPTION PERIOD.
+                    STAKING STARTS AFTER PRESALE.
                     </p>
 
                     <button type="button"
