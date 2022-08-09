@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Faq from '../components/Faq'
@@ -31,11 +32,13 @@ export default function Home() {
                      potentially tokenize important pieces of this ecosystem.
                     </p>
                     <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
-                        <a href="javascript:void(0)" className="px-7 py-3 w-full bg-white text-gray-800 text-center rounded-md shadow-md block sm:w-auto">
-                           Join Presale Whitelist
-                        </a>
-                        <a href="javascript:void(0)" className="px-7 py-3 w-full bg-gray-700 text-gray-200 text-center rounded-md block sm:w-auto">
-                            Join Telegram
+                        <Link href="/mint"
+						 className="px-7 py-3 w-full bg-white text-gray-800 text-center rounded-md shadow-md block sm:w-auto">
+                           Join Presale
+                        </Link>
+                        <a target="_blank" rel="noopener noreferrer"
+                                href='https://medium.com/@jardondr' className="px-7 py-3 w-full bg-gray-700 text-gray-200 text-center rounded-md block sm:w-auto">
+                            Learn more
                         </a>
                     </div>
                 </div>

@@ -48,28 +48,48 @@ const Navbar = () => {
         <div className="bg-gray-900">
         <header>
                 <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 flex sm:space-x-6 justify-between">
-                <a  className="flex items-center pr-2" aria-current="page">
+                <Link href="/">
+                <div  className="flex items-center pr-2" aria-current="page">
                     <img className="h-10" src="logo.svg" />
-                </a>
+                </div>
+                </Link>
                     <ul className="hidden py-4 items-center md:flex space-x-3 sm:space-x-6 sm:justify-end">
+                              <Link href="/">
                                 <li className="text-gray-200" >
-                                    <a >HOME</a>
+                                    HOME
                                 </li>
+                                </Link>
+                                <Link href="/mint">
                                 <li className="text-gray-200" >
-                                    <a >MINT</a>
+                                    MINT
                                 </li>
+                                </Link>
+                                <Link href="/vesting">
                                 <li className="text-gray-200" >
-                                    <a >STAKE</a>
+                                    STAKE
                                 </li>
+                                </Link>
+                                {/* <li className="text-gray-200" >
+                                    Telegram
+                                </li> */}
+                                       <a
+                                  target="_blank" rel="noopener noreferrer"
+                                href='https://t.me/+Z-8XTH1UPZpkNTdh'
+                                >
                                 <li className="text-gray-200" >
-                                    <a >Telegram</a>
+                                    TELEGRAM
                                 </li>
+                                </a>
+                                <a
+                                  target="_blank" rel="noopener noreferrer"
+                                href='https://medium.com/@jardondr'
+                                >
                                 <li className="text-gray-200" >
-                                    <a >BLOG</a>
+                                    BLOG
                                 </li>
-                                <li className="text-gray-200" >
-                                    <a >Telegram</a>
-                                </li>
+                                </a>
+                         
+                              
                     </ul>
                     <button 
                 className='p-3 bg-[#24ff00]'
@@ -85,7 +105,7 @@ const Navbar = () => {
                <Link href="/mint">
                <p className='p-2 hover:bg-white hover:text-black active:bg-white active:text-black'>MINT</p>
                </Link>
-                <Link href="vesting">
+                <Link href="/vesting">
                 <p className='p-2 hover:bg-white hover:text-black active:bg-white active:text-black'>STAKE</p>
                 </Link>
                 </div>
