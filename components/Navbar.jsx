@@ -78,7 +78,7 @@ const Navbar = () => {
                 </button>
                 </nav>
 
-                <div className='flex justify-evenly items-center pt-4 px-4'>
+                <div className='flex md:hidden justify-evenly items-center pt-4 px-4'>
                     <Link href="/">
                     <p className='p-2 hover:bg-white hover:text-black active:bg-white active:text-black'>HOME</p>
                     </Link>
