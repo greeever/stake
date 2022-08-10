@@ -33,12 +33,12 @@ export default function Home() {
                     </p>
                     <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
                         <Link href="/mint"
-						 className="px-7 py-3 w-full bg-white text-gray-800 text-center rounded-md shadow-md block sm:w-auto">
+						 className="px-7 py-3 w-full text-center rounded-md shadow-md block sm:w-auto cursor-pointer bg-indigo-600">
                            Join Presale
                         </Link>
                         <a target="_blank" rel="noopener noreferrer"
-                                href='https://medium.com/@jardondr' className="px-7 py-3 w-full bg-gray-700 text-gray-200 text-center rounded-md block sm:w-auto">
-                            Learn more
+                                href='https://t.me/+Z-8XTH1UPZpkNTdh' className="px-7 py-3 w-full bg-gray-700 text-gray-200 text-center rounded-md block sm:w-auto">
+                            Join Telegram
                         </a>
                     </div>
                 </div>

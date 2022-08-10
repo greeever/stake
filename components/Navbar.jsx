@@ -55,17 +55,17 @@ const Navbar = () => {
                 </Link>
                     <ul className="hidden py-4 items-center md:flex space-x-3 sm:space-x-6 sm:justify-end">
                               <Link href="/">
-                                <li className="text-gray-200" >
+                                <li className="text-gray-200 cursor-pointer" >
                                     HOME
                                 </li>
                                 </Link>
                                 <Link href="/mint">
-                                <li className="text-gray-200" >
+                                <li className="text-gray-200 cursor-pointer" >
                                     MINT
                                 </li>
                                 </Link>
                                 <Link href="/vesting">
-                                <li className="text-gray-200" >
+                                <li className="text-gray-200 cursor-pointer" >
                                     STAKE
                                 </li>
                                 </Link>
@@ -100,13 +100,13 @@ const Navbar = () => {
 
                 <div className='flex md:hidden justify-evenly items-center pt-4 px-4'>
                     <Link href="/">
-                    <p className='p-2 hover:bg-white hover:text-black active:bg-white active:text-black'>HOME</p>
+                    <p className='p-2 hover:bg-white hover:text-black active:bg-white active:text-black cursor-pointer'>HOME</p>
                     </Link>
                <Link href="/mint">
-               <p className='p-2 hover:bg-white hover:text-black active:bg-white active:text-black'>MINT</p>
+               <p className='p-2 hover:bg-white hover:text-black active:bg-white active:text-black cursor-pointer'>MINT</p>
                </Link>
                 <Link href="/vesting">
-                <p className='p-2 hover:bg-white hover:text-black active:bg-white active:text-black'>STAKE</p>
+                <p className='p-2 hover:bg-white hover:text-black active:bg-white active:text-black cursor-pointer'>STAKE</p>
                 </Link>
                 </div>
         
