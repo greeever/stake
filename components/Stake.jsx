@@ -36,14 +36,14 @@ const Stake = () => {
                         <p className="">APR <span className="">20%</span></p>
                     </div>
                     <div className="grid grid-cols-3 place-items-center gap-2">
-                        <div className=" border border-white  w-full p-4 active:bg-[#24ff00] active:text-gray-200">
-                            <p>14D</p>
+                        <div className=" border border-white  w-full p-4 active:bg-[#24ff00] active:text-gray-200 cursor-pointer">
+                            <p>15 DAYS</p>
                         </div>
-                        <div className=" border border-white  w-full p-4 active:bg-[#24ff00] active:text-gray-200">
-                            <p>14D</p>
+                        <div className=" border border-white  w-full p-4 active:bg-[#24ff00] active:text-gray-200 cursor-pointer">
+                            <p>30 DAYS</p>
                         </div>
-                        <div className=" border border-white  w-full p-4 active:bg-[#24ff00] active:text-gray-200">
-                            <p>14D</p>
+                        <div className=" border border-white  w-full p-4 active:bg-[#24ff00] active:text-gray-200 cursor-pointer">
+                            <p>60 DAYS</p>
                         </div>
                     </div>
 
