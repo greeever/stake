@@ -169,7 +169,7 @@ const Navbar = () => {
             truncateAddress(address)
         }</div>
         <div className='pb-6'>Connected to {connector?.name} wallet</div>
-        {chain && <div className='pb-6'>Connected on {chain?.name}</div>}
+        {chain && <div className='pb-6'>Connected on {chain?.name} smart chain</div>}
         <div className='flex justify-between'>
         <button
         className='bg-[#24ff00] py-2 px-2  rounded-sm mt-4 mb-2'
