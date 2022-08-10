@@ -32,9 +32,10 @@ export default function Home() {
                      potentially tokenize important pieces of this ecosystem.
                     </p>
                     <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
-                        <Link href="/mint"
-						 className="px-7 py-3 w-full text-center rounded-md shadow-md block sm:w-auto cursor-pointer bg-indigo-600">
+                        <Link href="/mint">
+						<p className="px-7 py-3 w-full text-center rounded-md shadow-md block sm:w-auto cursor-pointer bg-indigo-600">
                            Join Presale
+						   </p>
                         </Link>
                         <a target="_blank" rel="noopener noreferrer"
                                 href='https://t.me/+Z-8XTH1UPZpkNTdh' className="px-7 py-3 w-full bg-gray-700 text-gray-200 text-center rounded-md block sm:w-auto">
