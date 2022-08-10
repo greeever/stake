@@ -34,7 +34,7 @@ export default function Home() {
                     <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
                         <Link href="/mint">
 						<p className="px-7 py-3 w-full text-center rounded-md shadow-md block sm:w-auto cursor-pointer bg-indigo-600">
-                           Join Presale
+                           Get Chase Fintoken
 						   </p>
                         </Link>
                         <a target="_blank" rel="noopener noreferrer"
