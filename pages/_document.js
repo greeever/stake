@@ -7,7 +7,7 @@ class MyDocument extends Document {
       <Html className="dark" lang="en">
          <Head>
         {/* <title>Chase Finance</title> */}
-            <meta name="description" content="Chase Fintoken" />
+            <meta name="description" content="Chase Fintoken. Digital Assets Portfolio Manager" />
             <link rel="icon" href="/logo.svg" />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />

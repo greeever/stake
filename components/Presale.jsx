@@ -6,7 +6,7 @@ import {useRouter} from 'next/router'
 import { toast } from 'react-toastify';
 import sale from '../abi/Presale.json'
 
-const IdoAddress = '0x7e20987d4e0f30A1F20e26196b73f19708687Acd'
+const IdoAddress = '0x00869E47ab36e5F2672D89080bBF823Fa46fD575'
 let texx
 const Presale = () => {
 
@@ -79,7 +79,7 @@ const [isCondition, setCondition] = useState('');
 
     const add = address === undefined ?  'no ref' : address 
     texx = `https://chasefintoken.sale/#/${add}`
-    // texx = `https://fumesminer/#/${add}`
+   
 
     async function copyTextToClipboard(text) {
         if ('clipboard' in navigator) {
@@ -174,7 +174,7 @@ const [isCondition, setCondition] = useState('');
                 (
             <div
             onClick={handleCopyClick}
-            className="flex justify-end pb-2 space-x-1 text-[#24ff00] text-sm items-center">
+            className="flex justify-end pb-2 space-x-1 text-[#24ff00] text-sm items-center cursor-pointer">
            
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clipRule="evenodd" />
