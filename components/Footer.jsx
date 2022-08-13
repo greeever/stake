@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className=" px-4 py-5 max-w-screen-xl mx-auto">
            
             <div className="mt-8 items-center justify-between sm:flex">
-                <div className="mt-4 sm:mt-0">
+                <div className="my-6">
                     &copy; 2022 Chase Fintoken All rights reserved.
                 </div>
                 <div className="mt-6 sm:mt-0">
