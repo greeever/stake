@@ -51,7 +51,7 @@ const FaqsCard = (props) => {
 
         const faqsList = [
             {
-                q: "What is Chase Finance",
+                q: "What is Chase",
                 a: "$CHASE is a Decentralised Autonomous Organisation (DAO) governance that provides the community members the ability to be share holders in the Tokonised Assets e.g NFT. The NFT market is worth over $17B, but the rich takes most share. Chase is changing that by giving power to the people throuhg share ownership of NFTs e.g BoredApe"
     
             },
@@ -65,12 +65,12 @@ const FaqsCard = (props) => {
                 a: "Member of the organisation purchase high value NFTs, while retainig their share without propostion to their contribution."
             },
             {
-                q: "How safe is funds?",
+                q: "How safe are funds?",
                 a: "Member of the organisation funds are held in an audited smart contract that cannot be changed or accesed without autorisation"
             },
             {
-                q: "How to part of the community?",
-                a: "Users wishing to join must first purchase $chase from popular marketplace "
+                q: "How to be part of the community?",
+                a: "Users wishing to join must first purchase $chase from our platform or through third party  "
             },
             {
                 q: "How to earn?",

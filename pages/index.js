@@ -19,7 +19,7 @@ export default function Home() {
 	  {isMounted && 
 
       <div className="bg-gray-900">
-            <section className="mt-12 mx-auto max-w-screen-xl pb-12 px-4 items-center lg:flex md:px-8">
+            <section className="mt-12 mx-auto max-w-screen-xl pb-12 px-4 items-center lg:flex md:px-8 md:transition md:ease-in">
                 <div className="space-y-4 flex-1 sm:text-center lg:text-left">
                     <h1 className="text-white font-bold text-4xl xl:text-5xl">
                         Digital Asset
