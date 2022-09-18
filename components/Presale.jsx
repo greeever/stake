@@ -120,7 +120,7 @@ const [isCondition, setCondition] = useState('');
             if (!referralAddress || referralAddress.length !== 42) {
                 referralAddress = '0x0000000000000000000000000000000000000000'
             }
-            if (isAmount < 0.06 ) {
+            if (isAmount < 0.01 ) {
                 setMessage('Amount lower than minimum, minimum 0.6')
             }
             if (referralAddress === address) {
